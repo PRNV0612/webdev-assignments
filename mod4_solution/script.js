@@ -43,7 +43,7 @@ WARNING!!! WARNING!!!
     // See Lecture 50, part 1
     for (var i=0;i<names.length;i++) {
         var chr=names[i].charAt(0)       
-        if(chr=='j' || chr=='J'){
+        if(chr.toLowerCase()=='j'){
             byeSpeaker.speak(names[i]);
         }
         else{
